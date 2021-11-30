@@ -17,7 +17,7 @@ public class String_1 {
 //20 String-1 -hasBad
 //19 String-1 -middleThree
 //18 String-1 -twoChar
-//17 String-1 -nTwice
+//17   String-1 -nTwice
 
 //16 String-1 -endsLy
 public boolean endsLy(String str) {
