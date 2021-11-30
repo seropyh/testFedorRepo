@@ -189,7 +189,7 @@ public class warmup2 {
     public static  void main (String[] args)
     {
 
-        // 1 Warmup-2 > stringTimes
+        // 1  Warmup-2 > stringTimes
         System.out.println("1 Warmup-2 > stringTimes" );
         System.out.println(stringTimes("a",3 ));
         System.out.println(stringTimes("aa",2 ));

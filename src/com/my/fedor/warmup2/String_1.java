@@ -86,7 +86,7 @@ return str.substring(str.length()-2,str.length()) +str.substring(str.length()-2,
 public String makeOutWord(String out, String word) {
 return out.substring(0,2)+word + out.substring(2,4);
 }
- 
+
 //3 String-1 -makeTags
 public String makeTags(String tag, String word) {
 return "<"+tag+">"+word + "</"+tag+">";
