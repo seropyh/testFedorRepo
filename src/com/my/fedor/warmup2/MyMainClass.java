@@ -1,4 +1,4 @@
-package com.myTestTaskWarmup;
+package com.my.fedor.warmup2;
 
 
 public class MyMainClass {
