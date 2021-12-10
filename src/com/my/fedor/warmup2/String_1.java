@@ -2,12 +2,58 @@ package com.my.fedor.warmup2;
 
 public class String_1 {
 //33 String-1 -withoutX2
+public static String withoutX2(String str) {
+    String res=str;
+    int flg =0;
+    if (str.length()==0) return "";
+    if (str.substring(0,1).equals("x") ) {
+        res = res.substring(1);flg =1;
+    }
+    if (str.length() >=2 && str.substring(1,2).equals("x") ) {
+        if ( flg ==1 ){
+        res = res.substring(1);
+        }else {
+        res= res.substring(0,1) +  res.substring(2);
+        }
+
+        return res;
+    }
+    return res;
+}
 //32 String-1 -withoutX
+public String withoutX(String str) {
+    if (str.length()<2) return "";
+    String res=str;
+    if (str.substring(0,1).equals("x") ) res = res.substring(1);
+    if (str.substring(str.length()-1,str.length()).equals("x") )
+        res = res.substring(0,res.length()-1);
+    return res;
+}
 //31String-1 -startWord
+public static String startWord(String str, String word) {
+    if (str.length() < word.length() ) return "";
+    if (str.substring(1,word.length()).equals(word.substring(1)))
+        return str.substring(0,word.length());
+    return "";
+}
+
 //30 String-1 -deFront
+public String deFront(String str) {
+    String res ="";
+
+    if (str.length()>0 && str.substring(0,1).equals("a")) res="a";
+    if (str.length()>1 && str.substring(1,2).equals("b")) res=res +"b";
+    if (str.length()>=2) return res + str.substring(2);
+    return "";
+}
 //29 String-1 -without2
 public String without2(String str) {
-return "";
+    if (str.length()<2) return "";
+    if (str.substring(0,2).equals(str.substring(str.length()-2,str.length()))) {
+        return str.substring(2);
+    }
+
+    return str;
 }
 
     //28 String-1 -extraFront
@@ -197,9 +243,16 @@ public static String helloName(String name) {
         System.out.println( lastChars("yo","java"));
         System.out.println( lastChars("yo",""));
 
-       */
+
         System.out.println(minCat("1sdcsddvfdfdvbnn", "123121rt"));
 
 
+        System.out.println(startWord("hippo","hi"));
+        System.out.println(startWord("hippo","xip"));
+        System.out.println(startWord("hippo","i"));
+
+
+       */
+        System.out.println(withoutX2("x"));
     }
 }
