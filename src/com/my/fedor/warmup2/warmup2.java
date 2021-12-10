@@ -218,15 +218,15 @@ public class warmup2 {
         // 4 Warmup-2 > doubleX
         System.out.println("4 Warmup-2 > doubleX" );
         System.out.println(doubleX("xaxx"));
-        System.out.println(doubleX("axaxax"));
-        System.out.println(doubleX("xxxxx"));
+      //  System.out.println(doubleX("axaxax"));
+      //  System.out.println(doubleX("xxxxx"));
         System.out.println(doubleX("xaxxx"));
-        System.out.println(doubleX("chocolaxxte"));
-        System.out.println(doubleX("chxxocolate"));
-        System.out.println(doubleX("Hxxitxxherexx" ));
-        System.out.println(doubleX("x"));
-        System.out.println(doubleX("xx"));
-        // 5 Warmup-2 > stringBits
+     //   System.out.println(doubleX("chocolaxxte"));
+     //   System.out.println(doubleX("chxxocolate"));
+     //   System.out.println(doubleX("Hxxitxxherexx" ));
+     //   System.out.println(doubleX("x"));
+     //   System.out.println(doubleX("xx"));
+  /*      // 5 Warmup-2 > stringBits
         System.out.println("5 Warmup-2 > stringBits" );
         System.out.println(stringBits("Hello"));
         System.out.println(stringBits("Hi"));
@@ -337,6 +337,6 @@ public class warmup2 {
         System.out.println(has271(arr171) );
         System.out.println(has271(arr172) );
         System.out.println(has271(arr173) );
-
+*/
     }
 }
