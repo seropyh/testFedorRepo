@@ -1,0 +1,76 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=Задание НТ.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=12
+MinorVersion=63
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=12.63.0.399
+DFERebrandFlag=Done
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=12.63.0.399
+DisableRegenerate=0
+Encoding=ANSI
+Description=
+ScriptLocale=ru-RU
+[Actions]
+vuser_init=vuser_init.c
+ResultScript=ResultScript.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+AsyncCallbacks.c=
+globals.h=
+[Modified Actions]
+vuser_init=0
+ResultScript=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+ResultScript=0
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+ResultScript=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+ResultScript=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="start_login__*delimiter*__questions__*delimiter*__themes__*delimiter*__confa themes__*delimiter*__one theme__*delimiter*__start_logout"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[ExtraFilesToParse]
+AsyncCallbacks.c=
+[Transactions]
+start_login=
+questions=
+themes=
+"confa themes"=
+"one theme"=
+start_logout=
+[ParameterSimulation]
+NumVusers=1
+IsDurationIndefinite=0
+NumIterationsUntilCompletion=1
+IterationFromRTS=0
+NumIterationIndefinitely=1

@@ -1,0 +1,21 @@
+Думаю, вряд ли вы запомнили все пути, поэтому отправляю вам все в письме.
+
+Скачайте WinSCP из SUS:
+/usr/IBM/AppServer_EFS/profiles/AppSrv01/logs – тут лежат общие логи у каждой фп
+/sowalogs/vsp_ipad/services/service_http_proxy – общие логи совы
+/sowa/vsp_ipad/system – схемы запросов совы
+/sowa/vsp_ipad/services – сервисы совы
+/u01/var/logs/nginx – логи еагов
+
+/sowalogs/vsp_ipad/services/service_http_proxy/____  - приблизительный путь
+client_request – тут запрос от скрипта (клиента)
+upstream_request – тут запрос совы в бэк
+upstream_response – тут ответ от бэка
+client_response  - тут ответ от совы клиенту
+
+
+Вебсфера:
+https://tvlda-efs0___1(вашсервер).delta.sbrf.ru:9043/ibm/console/logon.jsp
+Логин/пароль у всех стандартный  efsadmin/efs123456
+
+В качестве бонуса сбрасываем инструкцию по установке и настройке ibm mq, кому интересно, почитайте.
